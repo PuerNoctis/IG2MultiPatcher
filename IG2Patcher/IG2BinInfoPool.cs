@@ -38,30 +38,30 @@ namespace IG2Patcher {
                 new Version(2, 3, 2, 0).ToString(),
                 new IG2BinInfo {
                     Callbacks = new IG2MenuCallbacks {
-                        Singleplayer = 0x00528F40,
-                        Campaign = 0x00527AF0,
-                        Load = 0x00529280,
-                        Tutorial = 0x0052AB50,
-                        Player = 0x00529600,
-                        Highscores = 0x005291B0,
-                        Options = 0x0000BEEF,
-                        Resume = 0x00529650,
-                        Exit = 0x00527C60,
-                        Credits = 0x00527DF0,
-                        Multiplayer = 0x005292D0
+                        Singleplayer    = 0x00528F40,
+                        Campaign        = 0x00527AF0,
+                        Load            = 0x00529280,
+                        Tutorial        = 0x0052AB50,
+                        Player          = 0x00529600,
+                        Highscores      = 0x005291B0,
+                        Options         = 0x00529340,
+                        Resume          = 0x00529650,
+                        Exit            = 0x00527C60,
+                        Credits         = 0x00527DF0,
+                        Multiplayer     = 0x005292D0
                     },
 
                     FnPtrs = new IG2MenuFnPtrs {
-                        Singleplayer = new MemoryLocation { Address = 0x00128EF6, Value = 0x00 },
-                        Campaign = new MemoryLocation { Address = 0x00128F76, Value = 0x00 },
-                        Load = new MemoryLocation { Address = 0x00128FF6, Value = 0x00 },
-                        Tutorial = new MemoryLocation { Address = 0x00129076, Value = 0x00 },
-                        Player = new MemoryLocation { Address = 0x00129136, Value = 0x00 },
-                        Highscores = new MemoryLocation { Address = 0x001291B6, Value = 0x00 },
-                        Options = new MemoryLocation { Address = 0x00129236, Value = 0x00 },
-                        Resume = new MemoryLocation { Address = 0x001292A6, Value = 0x00 },
-                        Exit = new MemoryLocation { Address = 0x00129326, Value = 0x00 },
-                        Credits = new MemoryLocation { Address = 0x001293A6, Value = 0x00 }
+                        Singleplayer    = new MemoryLocation { Address = 0x00128EF6, Value = 0x00 },
+                        Campaign        = new MemoryLocation { Address = 0x00128F76, Value = 0x00 },
+                        Load            = new MemoryLocation { Address = 0x00128FF6, Value = 0x00 },
+                        Tutorial        = new MemoryLocation { Address = 0x00129076, Value = 0x00 },
+                        Player          = new MemoryLocation { Address = 0x00129136, Value = 0x00 },
+                        Highscores      = new MemoryLocation { Address = 0x001291B6, Value = 0x00 },
+                        Options         = new MemoryLocation { Address = 0x00129236, Value = 0x00 },
+                        Resume          = new MemoryLocation { Address = 0x001292A6, Value = 0x00 },
+                        Exit            = new MemoryLocation { Address = 0x00129326, Value = 0x00 },
+                        Credits         = new MemoryLocation { Address = 0x001293A6, Value = 0x00 }
                     }
                     // ----------------------------------------
                 });
