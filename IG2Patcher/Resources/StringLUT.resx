@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Exit" xml:space="preserve">
+    <value>_Exit</value>
+  </data>
+  <data name="Button_Patch" xml:space="preserve">
+    <value>_Patch</value>
+  </data>
+  <data name="Error_FileNotFound" xml:space="preserve">
+    <value>The file '{0}' could not be found.</value>
+    <comment>{0} is the file name</comment>
+  </data>
+  <data name="Error_PatchFailed" xml:space="preserve">
+    <value>There was an error applying the patch: {0}</value>
+    <comment>{0} is the error/exception message</comment>
+  </data>
+  <data name="Error_VersionNotSupported" xml:space="preserve">
+    <value>The version of Industry Giant II you have selected ({0}.{1}.{2}.{3}) is not supported by this version of the patcher, or the file is not an Industry Giant II program. Sorry :(</value>
+    <comment>{0} through {3} are the version information (major, minor, build, revision - in order)</comment>
+  </data>
+  <data name="Info_PatchSuccess" xml:space="preserve">
+    <value>Patch successfully applied!</value>
+  </data>
+  <data name="Label_BindInfo" xml:space="preserve">
+    <value>Bind the Multiplayer menu to the following button in main menu:</value>
+  </data>
+  <data name="Label_GamePath" xml:space="preserve">
+    <value>Game Path:</value>
+  </data>
+  <data name="Label_GameVersion" xml:space="preserve">
+    <value>Game Version:</value>
+  </data>
+  <data name="MenuButtons_Campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="MenuButtons_Credits" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="MenuButtons_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MenuButtons_Highscores" xml:space="preserve">
+    <value>Highscores</value>
+  </data>
+  <data name="MenuButtons_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="MenuButtons_None" xml:space="preserve">
+    <value>&lt;none&gt;</value>
+  </data>
+  <data name="MenuButtons_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuButtons_Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="MenuButtons_Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="MenuButtons_Singleplayer" xml:space="preserve">
+    <value>Singleplayer</value>
+  </data>
+  <data name="MenuButtons_Tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="OpenDialog_Filter_IG2Program" xml:space="preserve">
+    <value>IG2 Program</value>
+  </data>
+  <data name="OpenDialog_IG2Title" xml:space="preserve">
+    <value>Select IG2 executable</value>
+  </data>
+  <data name="Title_Application" xml:space="preserve">
+    <value>Industry Giant II - Multiplayer Patcher</value>
+  </data>
+  <data name="Title_Disclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="Title_FileNotExisting" xml:space="preserve">
+    <value>File not existing</value>
+  </data>
+  <data name="Title_PatchFailed" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Title_PatchSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Title_VersionNotSupported" xml:space="preserve">
+    <value>Version not supported</value>
+  </data>
+  <data name="Warning_Disclaimer" xml:space="preserve">
+    <value>DISCLAIMER: You are patching the selected Industry Giant II program at your own risk. The creator of this patcher as well as United Independent Entertainment GmbH are not responsible for any damage done to the product or your computer. United Independent Entertainment GmbH is not involved in the creation of this patcher in any way. All rights to Industry Giant II are reserved by United Independent Entertainment GmbH.{0}{0}Do you want to continue?</value>
+    <comment>{0} is newline</comment>
+  </data>
+</root>
