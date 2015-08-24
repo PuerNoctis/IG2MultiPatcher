@@ -32,13 +32,17 @@ In case the patcher somehow corrupts the ig2_AddOn.exe file completely and the g
 
 ## Q&A
 *Q: What game modes will be enabled?*
+
 **A: The patch will enable the general Multiplayer menu which provides modes for "Online", "LAN" and "Skirmish". The "Online" mode can not be played since it requires the deprecated Game Spy Arcade software to be installed (which will not work anymore). "LAN" is fully supported and basically replaces the online play if you are using tunneling software like Hamachi or Tunngle. "Skirmish" will also work and enables you to customize more game settings than the regular "Singleplayer" mode.**
 
 *Q: Does saving/loading work in Multiplayer?*
+
 **A: Yes it does. Current testing has not shown any problems with saving/loading Multiplayer games.**
 
 *Q: How stable is it?*
+
 **A: During testing with one other person, there were a few out-of-sync errors (which could have been caused by zooming out too far and slowing down the game - it is not optimized for that). But it was possible to close the error message with the ESC key and continue playing without any issues. Overall it seems not less stable than the original version.**
 
 *Q: Why must I patch an existing button in the menu? Can't you just add a dedicated Multiplayer button?*
+
 **A: I could, but it would mean adding code to the ig2_AddOn.exe file, which would require more work to be done during the patch progress, and many other parts of the file have to be adapted to that addition. Changing the existing button's behaviour is a far less intrusive change and hence simpler.**
