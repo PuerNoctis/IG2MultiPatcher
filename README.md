@@ -43,6 +43,10 @@ In case the patcher somehow corrupts the ig2_AddOn.exe file completely and the g
 
 *A: During testing with one other person, there were a few out-of-sync errors (which could have been caused by zooming out too far and slowing down the game - it is not optimized for that). But it was possible to close the error message with the ESC key and continue playing without any issues. Overall it seems not less stable than the original version.*
 
+**Q: Why must I wait until the patcher supports every new game version that has been released? Can't I just use the same patcher everytime?**
+
+*A: When a new game version is released and the ig2_AddOn.exe was changed by UIG, all the fixed positions of the buttons within the file will most probably change slightly and the patcher would override the wrong data. So every time a new game version has been released these positions have to be re-determined and added to the patcher's internal logic.*
+
 **Q: Why must I patch an existing button in the menu? Can't you just add a dedicated Multiplayer button?**
 
 *A: I could, but it would mean adding code to the ig2_AddOn.exe file, which would require more work to be done during the patch progress, and many other parts of the file have to be adapted to that addition. Changing the existing button's behaviour is a far less intrusive change and hence simpler.*
