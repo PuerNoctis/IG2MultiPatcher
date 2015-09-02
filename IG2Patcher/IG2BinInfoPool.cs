@@ -33,8 +33,8 @@ namespace IG2Patcher {
         private static Dictionary<string, IG2BinInfo> _pool = new Dictionary<string, IG2BinInfo>();
 
         static IG2BinInfoPool() {
+            // ----------- V 2.3.2.0 ------------------
             _pool.Add(
-                // ----------------------------------------
                 new Version(2, 3, 2, 0).ToString(),
                 new IG2BinInfo {
                     Callbacks = new IG2MenuCallbacks {
@@ -63,8 +63,14 @@ namespace IG2Patcher {
                         Exit            = new MemoryLocation { Address = 0x00129326, Value = 0x00 },
                         Credits         = new MemoryLocation { Address = 0x001293A6, Value = 0x00 }
                     }
-                    // ----------------------------------------
                 });
+
+            // ----------- V 2.3.3.0 ------------------
+            _pool.Add(
+                new Version(2, 3, 3, 0).ToString(),
+                _pool["2.3.2.0"]);
+
+            // ----------------------------------------
         }
 
         internal static IG2BinInfo GetForVersion(FileVersionInfo v) {
