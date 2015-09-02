@@ -21,6 +21,7 @@ Once done patching you can start the game as usual. If you then press the button
 ## Supported game versions
 The following Steam versions of the game are supported:
 * 2.3.2.0
+* 2.3.3.0
 
 All other versions are not supported unless listed. Every time UIG releases a new update for the game the changes will be reverted and you'll need to wait for an update of this patcher in order to enable the Multiplayer mode again.
 
