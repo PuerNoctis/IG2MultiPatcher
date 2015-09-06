@@ -20,6 +20,7 @@ Once done patching you can start the game as usual. If you then press the button
 
 ## Supported game versions
 The following Steam versions of the game are supported:
+* 2.2.0.0
 * 2.3.2.0
 * 2.3.3.0
 

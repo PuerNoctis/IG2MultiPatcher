@@ -33,6 +33,37 @@ namespace IG2Patcher {
         private static Dictionary<string, IG2BinInfo> _pool = new Dictionary<string, IG2BinInfo>();
 
         static IG2BinInfoPool() {
+            // ----------- V 2.2.0.0 ------------------
+            _pool.Add(
+                new Version(2, 2, 0, 0).ToString(),
+                new IG2BinInfo {
+                    Callbacks = new IG2MenuCallbacks {
+                        Singleplayer = 0x00528AC0,
+                        Campaign = 0x00527670,
+                        Load = 0x00528E00,
+                        Tutorial = 0x0052A6D0,
+                        Player = 0x00529180,
+                        Highscores = 0x00528D30,
+                        Options = 0x00528EC0,
+                        Resume = 0x005291D0,
+                        Exit = 0x005277E0,
+                        Credits = 0x00527970,
+                        Multiplayer = 0x00528E50
+                    },
+
+                    FnPtrs = new IG2MenuFnPtrs {
+                        Singleplayer = new MemoryLocation { Address = 0x00128A76, Value = 0x00 },
+                        Campaign = new MemoryLocation { Address = 0x00128AF6, Value = 0x00 },
+                        Load = new MemoryLocation { Address = 0x00128B76, Value = 0x00 },
+                        Tutorial = new MemoryLocation { Address = 0x00128BF6, Value = 0x00 },
+                        Player = new MemoryLocation { Address = 0x00128CB6, Value = 0x00 },
+                        Highscores = new MemoryLocation { Address = 0x00128D36, Value = 0x00 },
+                        Options = new MemoryLocation { Address = 0x00128DB6, Value = 0x00 },
+                        Resume = new MemoryLocation { Address = 0x00128E26, Value = 0x00 },
+                        Exit = new MemoryLocation { Address = 0x00128EA6, Value = 0x00 },
+                        Credits = new MemoryLocation { Address = 0x00128F26, Value = 0x00 }
+                    }
+                });
             // ----------- V 2.3.2.0 ------------------
             _pool.Add(
                 new Version(2, 3, 2, 0).ToString(),
