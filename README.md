@@ -3,13 +3,13 @@
 ## UPDATE
 A much more simpler solution to the problem has been discovered. **This patcher is, as of now, deemed to be obsolete.** Please use this technique henceforth: http://steamcommunity.com/app/271360/discussions/0/364042262886421054/
 
-Host a session:
+**Host a session:**
 `"C:\Programmi\Steam\steamapps\common\Industry Giant 2\ig2_AddOn.exe" -host -playername "HostName"`
 
-Join a session:
-`""C:\Programmi\Steam\steamapps\common\Industry Giant 2\ig2_AddOn.exe" -client xxx.xxx.xxx.xxx -playername "ClientName"`
+**Join a session:**
+`"C:\Programmi\Steam\steamapps\common\Industry Giant 2\ig2_AddOn.exe" -client xxx.xxx.xxx.xxx -playername "ClientName"`
 
-Many thanks to the author of this post.
+Many thanks to the author of the post in the Steam forums.
 
 ## Disclaimer
 Patching the Industry Giant II program is at your own risk. The creator of the mentioned patcher as well as United Independent Entertainment GmbH are not responsible for any damage done to the product or your computer. United Independent Entertainment GmbH is not involved in the creation of this patcher in any way. All rights to Industry Giant II are reserved by United Independent Entertainment GmbH.
